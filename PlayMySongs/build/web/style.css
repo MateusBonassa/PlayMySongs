@@ -1,0 +1,203 @@
+body{
+    background-color: black;
+}
+.central{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    background-color: #2e2e2e; 
+    padding: 0px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px; 
+    box-shadow: 5px 10px 20px 10px #FC80B8;
+    margin-top: 3%;
+    border: solid #202020 5px;
+    margin-bottom: 3%;
+}
+.searchMusic{
+    border: solid #FC80B8 2px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    width: 180px;
+    outline: none;
+    transition: 0.35s;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    margin-top: 10px;
+}
+.searchMusic:hover{
+    width: 220px;
+    font-size: 20px;
+    box-shadow: 5px 5px 50px 2px #FC80B8;
+}
+.searchMusic:focus{
+    width: 220px;
+    font-size: 20px;
+    box-shadow: 5px 5px 50px 2px #FC80B8;
+}
+
+.itemMusica{
+    width: 165px;
+    height: 140px;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+    transition: 0.4s;
+    border-radius: 30px;
+    padding: 10px;
+
+} 
+
+.itemMusica:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.musicas{
+    display: flex;
+    margin-top: 50px;
+
+
+} 
+.add{
+    width: 70px;
+    color: white;
+    margin: 0 auto;
+}
+
+.addtexto{
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;    
+    overflow: hidden;
+    max-width: 12ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.logo{
+    text-align:center;
+    color: #FC80B8;
+    font-family: 'Fredoka', sans-serif;    
+    font-size: 30px
+}
+.flex-wrap-music {
+    flex-wrap: wrap;
+}
+
+.imgMusic{
+    width:60%;
+    height: 75%;
+    box-shadow: 1px 1px 20px 1px black;
+    border-radius: 5px;
+}
+
+.modal-content{
+    background-color: #2e2e2e; 
+    border-radius: 30px;
+    box-shadow:  1px 1px 20px 1px black;
+
+}
+.modal-dialog{
+    transition: 0.4s;       
+}
+
+.modal-title{
+    color:white;
+    font-size: 25px;
+    margin-bottom:0;
+}
+.close{
+    color: white;
+}
+a:hover {text-decoration: none;}
+.imgMusicModal{
+    width: 70%;
+    height: 75%;
+    margin-bottom: 5%;
+    border-radius: 10px
+}
+audio {
+    width: 75%;
+    height: 40px;
+    background-color: #2e2e2e; 
+}
+audio:focus{
+    outline: none;
+}
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    background-color: #F380C8; 
+}   
+form p{color:white;}
+
+.CantorMusic{
+    color:gray;
+    margin-top: 0;
+}
+.modal-header
+{
+    margin-bottom: 0;
+}
+
+.inputAdd{
+    border: solid #FC80B8 2px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+    width: 180px;
+    outline: none;
+    transition: 0.35s;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 15px;
+    transition: 0.4s;
+}
+
+.inputText{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+
+
+}
+
+.inputAdd:hover{
+    width: 200px;
+}
+.inputAdd:focus{
+    width: 200px;
+}
+.btnMusica{
+    background-color: transparent;
+    border: solid #FC80B8 2px;
+    color: white;
+    transition: 0.3s;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+.btnMusica:hover{
+    background-color: #FC80B8;
+    color: black;
+}
+.btnFile{
+    border-radius: 8px;
+    background-color: transparent;
+    border: solid #FC80B8 2px;
+    color: white;
+    transition: 0.3s;
+    font-size: 16px;
+    padding: 5px;
+    font-family: 'Fredoka', sans-serif;
+    margin-bottom: 15px;
+
+}
+.btnFile:hover{
+    cursor: pointer;
+}
