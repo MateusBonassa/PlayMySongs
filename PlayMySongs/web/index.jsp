@@ -67,6 +67,15 @@
                 if(!mscex.exec(msc.value))
                     msc.value = null;
             }
+            
+            function pararTudo()
+            {
+                document.querySelectorAll('audio').forEach(function(audioElement) {
+                    if (!audioElement.paused) {
+                        audioElement.pause();
+                    }
+                });
+            }
         </script>
         
     </head>
@@ -140,7 +149,7 @@
               
                 if(nomeMusic == null || aux_da_aux.contains(nomeMusic.toLowerCase()) || TipoMusica.contains(nomeMusic.toLowerCase()) ){
                 %>
-                <div class="itemMusica" data-toggle="modal" data-target="#modal<%= idMusic%>">
+                <div class="itemMusica" data-toggle="modal" data-target="#modal<%= idMusic%>" onclick="pararTudo()">
                     <img class="imgMusic" src="<%="Imagens/"+AcharImg(aux,imgnomes)%>"   class="add">
                     <p class="addtexto"><%= aux%></p>
                 </div>
